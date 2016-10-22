@@ -1,0 +1,62 @@
+<!DOCTYPE html> 
+<html>
+<head>
+	<title>-no title-</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="js/jquery.mobile-1.4.5.min.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="//www.parsecdn.com/js/parse-1.4.2.min.js"></script>
+	<script src="js/jquery-1.11.3.min.js"></script>
+	<script src="js/jquery.mobile-1.4.5.min.js"></script>
+    <script src="js/to_do-js.js"></script>
+    
+</head>
+
+<body>
+<div class="mainpage" data-role="page">
+	<div class="profile-head">
+		<h1>To Do List</h1>
+        
+	</div><!-- /header -->
+
+	<div role="main" class="ui-content">
+	<form>
+			<fieldset data-role="ui-field-contain"> 
+				<label for="task">Task:</label>
+				<input type="text" name="task" id="task">
+			</fieldset>
+    <fieldset data-role="ui-field-contain"> 
+				<label class="select" for="priority">Priority</label>
+				<select name="priority" id="priority">
+    			<option value="1">1</option>
+    			<option value="2">2</option>
+    			<option value="3">3</option>
+			</select>
+
+
+				</fieldset>
+    <input type="button" value="Add" id="add">
+    </form>
+	  <table data-role="table" id="table-column-toggle" class="ui-responsive table-stroke">
+	              <thead>
+	                <tr>
+	                  <th data-priority="1">No</th>
+	                  <th>Task</th>
+	                  <th data-priority="3">Priority</th>
+	                  <th>Done</th>
+	                 
+	                </tr>
+	              </thead>
+	              <tbody class="tasktable">	 
+	                                  
+	              </tbody>
+                 
+	            </table>
+    </div>
+           
+	<div data-role="footer" data-position="fixed">
+		<h4>Page Footer</h4>
+	</div><!-- /footer -->
+</div><!-- /page -->
+</body>
+</html>
