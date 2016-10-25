@@ -1,0 +1,20 @@
+@charset "utf-8";
+/* CSS Document */
+.mainpage{
+	padding:0;
+	margin: 0;
+	border:0;
+}
+.profile-head{
+	padding:1em;
+	margin: 0;
+	border:0;
+	height:10em;
+	background-image: url("http://vignette3.wikia.nocookie.net/im-pusheen-the-cat/images/5/50/Wiki-background/revision/latest/scale-to-width-down/320?cb=20130820200452");
+	color: #000;
+}
+
+
+.VerySmartBot{
+	color: green;
+}

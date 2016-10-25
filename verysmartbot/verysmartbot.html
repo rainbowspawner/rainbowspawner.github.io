@@ -1,0 +1,47 @@
+<!DOCTYPE html> 
+<html>
+<head>
+	<title>VerySmartBot</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="js/jquery.mobile-1.4.5.min.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+	<script src="js/jquery-1.11.3.min.js"></script>
+	<script src="js/jquery.mobile-1.4.5.min.js"></script>
+     <script src="http://cdn.rawgit.com/jquery/jquery-ui/1.10.4/ui/jquery.ui.datepicker.js"></script>
+    <script id="mobile-datepicker" src="http://cdn.rawgit.com/arschmitz/jquery-mobile-datepicker-wrapper/v0.1.1/jquery.mobile.datepicker.js"></script>
+    <script src="js/verysmartbot.js"></script>
+</head>
+
+<body>
+<div class="mainpage" data-role="page">
+	<div class="profile-head">
+		<h1>Bow down to the very smart bot</h1>
+        
+	</div><!-- /header -->
+
+	<div role="main" class="ui-content">
+	<form>
+		<fieldset data-role="ui-field-task"> 
+			<label for="question">Write your question:</label>
+				<input type="text" name="question" id="question">
+			</fieldset>
+    <input id="ask" type="button" value="Ask">
+    </form>
+	    <table data-role="table" id="table-column-toggle" class="ui-responsive table-stroke">
+	              <thead>
+	                <tr>
+	                  <th>Chat with VerySmartBot</th>
+	                </tr>
+	              </thead>
+	              <tbody class="chattable">	                     
+	              </tbody>
+                 
+	            </table>   
+    </div>
+           
+<div data-role="footer" data-position="fixed">
+		<h4>Page Footer</h4>
+	</div><!-- /footer -->
+</div><!-- /page -->
+</body>
+</html>
